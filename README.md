@@ -2,9 +2,9 @@
 
 Swift Package Manager distribution of the Genies WebRTC build with audio-only receiver timing.
 
-- Package URL: https://github.com/geniesinc/webrtc-xcframework
+- Package URL: https://github.com/genies-sdk/webrtc-xcframework
 - Version: 150.7871.2-genies.1
-- Native source: [geniesinc/webrtc, commit 37da78f](https://github.com/geniesinc/webrtc/commit/37da78f55660265cade2a601dca4a171636e369c)
+- Native source: [genies-sdk/webrtc, commit 37da78f](https://github.com/genies-sdk/webrtc/commit/37da78f55660265cade2a601dca4a171636e369c)
 - Framework and product name: LiveKitWebRTC
 - Objective-C prefix: LK
 
