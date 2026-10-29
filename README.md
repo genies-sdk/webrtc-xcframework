@@ -1,30 +1,21 @@
-# webrtc-xcframework
+# Genies LiveKitWebRTC
 
-LiveKit version Dynamic WebRTC XCFramework
+Swift Package Manager distribution of the Genies WebRTC build with audio-only receiver timing.
 
-* Framework is renamed to `LiveKitWebRTC`.
-* Objective-C symbols are prefixed with `LK`, for example `LKRTCPeerConnection`.
-* Network Monitor is always enabled (Field trial `WebRTC-Network-UseNWPathMonitor`)
+- Package URL: https://github.com/geniesinc/webrtc-xcframework
+- Version: 150.7871.2-genies.1
+- Native source: [geniesinc/webrtc, commit 37da78f](https://github.com/geniesinc/webrtc/commit/37da78f55660265cade2a601dca4a171636e369c)
+- Framework and product name: LiveKitWebRTC
+- Objective-C prefix: LK
 
-Built using :
-* https://github.com/webrtc-sdk/webrtc
-* https://github.com/webrtc-sdk/webrtc-build
+## Supported binaries
 
-## Requirements
-* iOS 13+
-* macOS 10.15+
-* Mac Catalyst 14.0+
-* visionOS 2.2+
-* tvOS 17.0+
+| Platform | Architecture | Minimum OS |
+|---|---|---|
+| iOS device | arm64 | iOS 13 |
+| iOS Simulator | arm64 | iOS 13 |
+| macOS | arm64 | macOS 11 |
 
-## Binaries included
-| **Platform / arch**      | arm64  |   x64   |
-|--------------------------|--------|---------|
-| **iOS (device)**         |   ✅   |         |
-| **iOS (simulator)**      |   ✅   |    ✅   |
-| **macOS**                |   ✅   |    ✅   |
-| **Mac Catalyst**         |   ✅   |    ✅   | 
-| **visionOS (device)**    |   ✅   |     　   | 
-| **visionOS (simulator)** |   ✅   |         | 
-| **tvOS (device)**        |   ✅   |     　   | 
-| **tvOS (simulator)**     |   ✅   |         | 
+The framework is distributed as the LiveKitWebRTC.xcframework.zip release asset. Package.swift pins its SHA-256 checksum. The archive includes the native LICENSE, NOTICE, and PATENTS files.
+
+Use the matching Genies client-sdk-swift release throughout the app's dependency graph. This Genies distribution supports SPM; the inherited CocoaPods specification describes the upstream package.

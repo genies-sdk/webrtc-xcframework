@@ -7,8 +7,7 @@ let package = Package(
     name: "LiveKitWebRTC",
     platforms: [
         .iOS(.v13),
-        .macOS(.v10_15),
-        .macCatalyst(.v14),
+        .macOS(.v11),
     ],
     products: [
         .library(
@@ -18,10 +17,11 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
+        // Genies WebRTC source: 37da78f55660265cade2a601dca4a171636e369c
         .binaryTarget(
             name: "LiveKitWebRTC",
-            url: "https://github.com/livekit/webrtc-xcframework/releases/download/150.7871.02/LiveKitWebRTC.xcframework.zip",
-            checksum: "a523cd141d2aa6c3638d49fea1f72b0aafd28a8818c35fc240e08418da3d2fda"
+            url: "https://github.com/geniesinc/webrtc-xcframework/releases/download/150.7871.2-genies.1/LiveKitWebRTC.xcframework.zip",
+            checksum: "b16a361bc67b99f03cc70dbeaf811e0f9e757d9d9bdb9ad6b199db328548c5f1"
         ),
     ]
 )
