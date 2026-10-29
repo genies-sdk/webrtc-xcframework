@@ -20,7 +20,7 @@ let package = Package(
         // Genies WebRTC source: 37da78f55660265cade2a601dca4a171636e369c
         .binaryTarget(
             name: "LiveKitWebRTC",
-            url: "https://api.github.com/repos/geniesinc/webrtc-xcframework/releases/assets/689199016.zip",
+            url: "https://api.github.com/repos/geniesinc/webrtc-xcframework/releases/assets/687144417.zip",
             checksum: "b16a361bc67b99f03cc70dbeaf811e0f9e757d9d9bdb9ad6b199db328548c5f1"
         ),
     ]
